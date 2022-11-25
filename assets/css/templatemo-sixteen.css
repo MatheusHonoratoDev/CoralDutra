@@ -5,6 +5,9 @@ TemplateMo 546 Sixteen Clothing
 https://templatemo.com/tm-546-sixteen-clothing
 
 */
+audio{
+	width: 100%;
+}
 body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
@@ -13,6 +16,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 p {
+	margin-left: 8px;
 	margin-bottom: 0px;
 	font-size: 14px;
 	font-weight: 300;
@@ -100,6 +104,10 @@ a.filled-button:hover {
 .contact-heading {
 	background-image: url(../images/contact-heading.jpg);
 }
+.contact-heading2 {
+	background-image: url(../images/slide_01.jpg);
+}
+
 
 .page-heading {
 	padding: 210px 0px 130px 0px;
@@ -112,6 +120,13 @@ a.filled-button:hover {
 .page-heading .text-content h4 {
 	color: #f33f3f;
 	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.container .music h4 {
+	color: #f33f3f;
+	font-size: 60px;
 	text-transform: uppercase;
 	font-weight: 700;
 	margin-bottom: 15px;
